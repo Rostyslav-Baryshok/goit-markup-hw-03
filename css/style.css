@@ -29,6 +29,12 @@ img {
 }
 .list {
   list-style: none;
+  display: flex;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.portfolio-list {
+  flex-wrap: wrap;
 }
 .link {
   text-decoration: none;
@@ -53,6 +59,27 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.doing {
+  padding-top: 0px;
+}
+.doing-item {
+  flex-basis: calc((100% - 90px) / 3);
+  margin-top: 30px;
+  margin-left: 30px;
+}
+/* Our team */
+.team-list-item {
+  flex-basis: calc((100% - 120px) / 4);
+  margin-top: 30px;
+  margin-left: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.our-team-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .header-container {
   display: flex;
@@ -115,8 +142,11 @@ body {
 
 /* Hero */
 .hero {
-  background: #2f303a;
+  background: var(--hero-footer-background);
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
+  letter-spacing: 0.06em;
 }
 .hero-title {
   font-family: "Roboto", sans-serif;
@@ -126,20 +156,21 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
   color: var(--white-text);
 }
 .primary-button {
   font-weight: 700;
   font-size: 16px;
-  padding: 10 32;
   line-height: 1.87;
-  letter-spacing: 0.06em;
+  display: block;
+  margin: 0 auto;
   cursor: pointer;
   color: var(--white-text);
   background: var(--accent-color);
-}
-.primary-button {
-  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: 0;
 }
 /* Features */
 .feature-title {
@@ -175,6 +206,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
   color: var(--secondary-text-color);
 }
 .our-team-section {
@@ -200,6 +232,8 @@ body {
 /* Footer */
 .footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -207,14 +241,19 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  display: block;
+  margin-bottom: 20px;
   color: var(--accent-color);
 }
-.menu-footer {
+.footer-list {
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 .color-logo-footer,
 .adress-color {
