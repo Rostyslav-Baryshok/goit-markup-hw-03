@@ -43,96 +43,118 @@
         </div>
     </header>
     <main>
-        <section>
-            <!-- Button -->
-            <ul class="menu-secondary-btn list">
-                <li>
-                    <button class="secondary-btn" type="button">Все</button>
-                </li>
-                <li>
-                    <button class="secondary-btn" type="button">Веб-сайты</button>
-                </li>
-                <li>
-                    <button class="secondary-btn" type="button">Приложения</button>
-                </li>
-                <li>
-                    <button class="secondary-btn" type="button">Дизайн</button>
-                </li>
-                <li>
-                    <button class="secondary-btn" type="button">Маркетинг</button>
-                </li>
-            </ul>
+        <section class="portfolio-section">
+            <div class="container">
+                <!-- Button -->
+                <ul class="menu-secondary-btn list">
+                    <li class="item-secondary-btn">
+                        <button class="secondary-btn" type="button">Все</button>
+                    </li>
+                    <li class="item-secondary-btn">
+                        <button class="secondary-btn" type="button">Веб-сайты</button>
+                    </li>
+                    <li class="item-secondary-btn">
+                        <button class="secondary-btn" type="button">Приложения</button>
+                    </li>
+                    <li class="item-secondary-btn">
+                        <button class="secondary-btn" type="button">Дизайн</button>
+                    </li>
+                    <li class="item-secondary-btn">
+                        <button class="secondary-btn" type="button">Маркетинг</button>
+                    </li>
+                </ul>
 
-            <!-- Portfolio cards -->
-            <h2>Наши прооекты</h2>
-            <ul class="list portfolio-list">
-                <li>
-                    <a class="link" href="">
-                        <img src="./images/portfolio/project01-01.jpg" alt="ноутбук" width="370" height="294" />
-                        <h3 class="portfolio-item-title">Технокряк</h3>
-                        <p class="portfolio-item-description">Веб-сайт</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link" href="">
-                        <img src="./images/portfolio/project01-02.jpg" alt="два баскетболиста" width="370"
-                            height="294" />
-                        <h3 class="portfolio-item-title">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
-                        <p class="portfolio-item-description">Дизайн</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link" href="">
-                        <img src="./images/portfolio/project01-03.jpg" alt="логотип ресторана" width="370"
-                            height="294" />
-                        <h3 class="portfolio-item-title">Ресторан <span lang="en">Seafood</span></h3>
-                        <p class="portfolio-item-description">Приложение</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link" href="">
-                        <img src="./images/portfolio/project02-01.jpg" alt="наушники" width="370" height="294" />
-                        <h3 class="portfolio-item-title">Проект <span lang="en">Prime</span></h3>
-                        <p class="portfolio-item-description">Веб-сайт</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link" href="">
-                        <img src="./images/portfolio/project02-02.jpg" alt="две коробочки" width="370" height="294" />
-                        <h3 class="portfolio-item-title">Проект <span lang="en">Boxes</span></h3>
-                        <p class="portfolio-item-description">Приложение</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link" href="">
-                        <img src="./images/portfolio/project02-03.jpg" alt="аймак" width="370" height="294" />
-                        <h3 class="portfolio-item-title" lang="en">Inspiration has no Borders</h3>
-                        <p class="portfolio-item-description">Веб-сайт</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link" href="">
-                        <img src="./images/portfolio/project03-01.jpg" alt="журнал" width="370" height="294" />
-                        <h3 class="portfolio-item-title">Издание <span>Limited Edition</span></h3>
-                        <p class="portfolio-item-description">Дизайн</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link" href="">
-                        <img src="./images/portfolio/project03-02.jpg" alt="этикетка" width="370" height="294" />
-                        <h3 class="portfolio-item-title">Проект <span>LAB</span></h3>
-                        <p class="portfolio-item-description">Маркетинг</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link" href="">
-                        <img src="./images/portfolio/project03-03.jpg" alt="работа на ноутбуке" width="370"
-                            height="294" />
-                        <h3 class="portfolio-item-title" lang="en">Growing Business</h3>
-                        <p class="portfolio-item-description">Приложение</p>
-                    </a>
-                </li>
-            </ul>
+                <!-- Portfolio cards -->
+                <h2 hidden>Наши прооекты</h2>
+                <ul class="list portfolio-list">
+                    <li class="portfolio-item">
+                        <a class="link" href="">
+                            <img src="./images/portfolio/project01-01.jpg" alt="ноутбук" width="370" height="294" />
+                            <div class="portfolio-text-content">
+                                <h3 class="portfolio-item-title">Технокряк</h3>
+                                <p class="portfolio-item-description">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-item">
+                        <a class="link" href="">
+                            <img src="./images/portfolio/project01-02.jpg" alt="два баскетболиста" width="370"
+                                height="294" />
+                            <div class="portfolio-text-content">
+                                <h3 class="portfolio-item-title">Постер <span lang="en">New Orlean vs Golden Star</span>
+                                </h3>
+                                <p class="portfolio-item-description">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-item">
+                        <a class="link" href="">
+                            <img src="./images/portfolio/project01-03.jpg" alt="логотип ресторана" width="370"
+                                height="294" />
+                            <div class="portfolio-text-content">
+                                <h3 class="portfolio-item-title">Ресторан <span lang="en">Seafood</span></h3>
+                                <p class="portfolio-item-description">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-item">
+                        <a class="link" href="">
+                            <img src="./images/portfolio/project02-01.jpg" alt="наушники" width="370" height="294" />
+                            <div class="portfolio-text-content">
+                                <h3 class="portfolio-item-title">Проект <span lang="en">Prime</span></h3>
+                                <p class="portfolio-item-description">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-item">
+                        <a class="link" href="">
+                            <img src="./images/portfolio/project02-02.jpg" alt="две коробочки" width="370"
+                                height="294" />
+                            <div class="portfolio-text-content">
+                                <h3 class="portfolio-item-title">Проект <span lang="en">Boxes</span></h3>
+                                <p class="portfolio-item-description">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-item">
+                        <a class="link" href="">
+                            <img src="./images/portfolio/project02-03.jpg" alt="аймак" width="370" height="294" />
+                            <div class="portfolio-text-content">
+                                <h3 class="portfolio-item-title" lang="en">Inspiration has no Borders</h3>
+                                <p class="portfolio-item-description">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-item">
+                        <a class="link" href="">
+                            <img src="./images/portfolio/project03-01.jpg" alt="журнал" width="370" height="294" />
+                            <div class="portfolio-text-content">
+                                <h3 class="portfolio-item-title">Издание <span>Limited Edition</span></h3>
+                                <p class="portfolio-item-description">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-item">
+                        <a class="link" href="">
+                            <img src="./images/portfolio/project03-02.jpg" alt="этикетка" width="370" height="294" />
+                            <div class="portfolio-text-content">
+                                <h3 class="portfolio-item-title">Проект <span>LAB</span></h3>
+                                <p class="portfolio-item-description">Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-item">
+                        <a class="link" href="">
+                            <img src="./images/portfolio/project03-03.jpg" alt="работа на ноутбуке" width="370"
+                                height="294" />
+                            <div class="portfolio-text-content">
+                                <h3 class="portfolio-item-title" lang="en">Growing Business</h3>
+                                <p class="portfolio-item-description">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <!--Footer-->
@@ -143,15 +165,17 @@
 
             <address>
                 <ul class="footer-list list">
-                    <li>
+                    <li class="footer-item">
                         <a class=" link" href="https://goo.gl/maps/N5KW4McrUBXQHcLB9" target="_blank"
                             rel="nooperen noreferrer">
                             <span class="adress-color">г.Киев,
                                 пр-т Леси
                                 Украинки, 26</span></a>
                     </li>
-                    <li><a class="contact-link-footer link" href="mailto:info@example.com">info@example.com</a></li>
-                    <li><a class="contact-link-footer link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+                    <li class="footer-item"><a class="contact-link-footer link"
+                            href="mailto:info@example.com">info@example.com</a></li>
+                    <li class="footer-item"><a class="contact-link-footer link" href="tel:+380991111111">+38 099 111 11
+                            11</a></li>
                 </ul>
             </address>
         </div>
